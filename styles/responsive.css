@@ -1,0 +1,144 @@
+@media (max-width: 768px) {
+  header,
+  .hero,
+  .category,
+  .course,
+  .reason,
+  .instructors,
+  .ready,
+  footer {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  /* Header / Nav */
+  header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    /* justify-content: space-between; */
+  }
+  nav {
+    display: none;
+  }
+  header button {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  /* Hero */
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 64px;
+  }
+  .hero-content {
+    width: 100%;
+  }
+  .hero h2 {
+    size: 40px;
+    letter-spacing: -1px;
+  }
+  .hero-btns {
+    flex-direction: column;
+    align-items: stretch;
+    width: fit-content;
+  }
+  /* Category */
+  .category {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .category-type {
+    flex-wrap: wrap;
+  }
+  /* Course */
+  .course {
+    padding-top: 64px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  /* .course-text {
+    
+  } */
+  .course-text h2 {
+    font-size: 30px;
+  }
+  .text-all-courses {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+   }
+   .text-all-courses button {
+    width: 100%;
+   }
+   .cards {
+    flex-direction: column;
+   }
+   .card {
+    width: 100%;
+   }
+   /* Reason */
+   .reason {
+    padding-top: 64px;
+   }
+   .reason-text h3 {
+    font-size: 30px;
+   }
+   .reason-text p {
+    padding: 12px 0 0;
+   }
+   .reason-content {
+    flex-direction: column;
+    padding: 32px 0 0;
+  }
+  .reason-card {
+    width: 100%;
+  }
+  /* Instructor */
+  .instructors {
+    padding-top: 64px;
+  }
+  .instructors-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+  .instructors-content h3 {
+    font-size: 30px;
+  }
+  .instructors-content button {
+    justify-content: center;
+  }
+  .instructors-cards {
+    flex-direction: column;
+  }
+  .instructor-card-content {
+    width: 100%;
+  }
+  /* Ready */
+  .ready {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .ready h3 {
+    font-size: 30px;
+  }
+  .ready p {
+    padding: 16px 0 32px;
+  }
+  /* Footer */
+  .footer-content {
+    flex-direction: column;
+  }
+  .about-academy,
+  .footer-links {
+    width: 100%;
+  }
+  .footer-end {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-end::before {
+    top: 48px;
+  }
+}
